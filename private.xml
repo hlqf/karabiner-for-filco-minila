@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root>
+  <devicevendordef>
+    <vendorname>FILCO_MINILA</vendorname>
+    <vendorid>0x0a5c</vendorid>
+  </devicevendordef>
+ 
+  <item>
+    <name>[FILCO_MINILA] Map app to command</name>
+    <identifier>private.devicevendordef1</identifier>
+    <device_only>DeviceVendor::FILCO_MINILA</device_only>
+    <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::COMMAND_R</autogen>
+  </item>
+</root>
